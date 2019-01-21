@@ -36,27 +36,31 @@
   }
 
   a:link {
-    color: green;
     background-color: transparent;
     text-decoration: none;
   }
 
   a:visited {
-    color: pink;
+    color: inherit;
     background-color: transparent;
     text-decoration: none;
   }
 
   a:hover {
-    color: red;
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:active {
     background-color: transparent;
     text-decoration: none;
   }
 
-  a:active {
-    color: yellow;
+  .hover a:hover {
+    color: white;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
   }
 
 </style>
@@ -69,7 +73,8 @@
     <p style="font-size: 25px">The Beginning</p>
   </div>
 
-<a href="http://www.google.com">
+<div>
+<a href="shop.html">
   <img src="black.jpg" alt="black t-shirt" width="300px" height="300px">
   <p style="font-size: 20px">Black T-Shirt</p>
 </a>
@@ -82,11 +87,11 @@
     <p style="color: white; font-size: 25px;">The Finale</p>
   </div>
 
-<a href="http://www.google.com">
-  <img src="white.jpg" alt="white t-shirt" width="300px" height="300px">
-  <p style="font-size: 20px; color: White;">White T-Shirt</p>
-</a>
-
+<div class="hover">
+  <a href="http://www.google.com">
+    <img src="black.jpg" alt="black t-shirt" width="300px" height="300px">
+    <p style="font-size: 20px; color:white">Black T-Shirt</p>
+  </a>
 </div>
 
 </body>
