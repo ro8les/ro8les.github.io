@@ -9,32 +9,6 @@
 
 <style>
 
-  /* Split the screen in half */
-  .split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    font-family: sans-serif;
-  }
-
-  /* Control the left side */
-  .left {
-    left: 0;
-    background-color: lavenderblush;
-    text-align: center;
-  }
-
-  /* Control the right side */
-  .right {
-    right: 0;
-    background-color: black;
-    text-align: center;
-  }
-
   a:link {
     background-color: transparent;
     text-decoration: none;
@@ -63,34 +37,18 @@
     text-decoration: underline;
   }
 
+  body {
+    background-color: black;
+  }
+
 </style>
 
 <body>
 
-<div class="split left">
-  <div class="centered">
-    <h1>Collection 1</h1>
-    <p style="font-size: 25px">The Beginning</p>
-  </div>
-
-<div>
-<a href="shop.html">
-  <img src="black.jpg" alt="black t-shirt" width="300px" height="300px">
-  <p style="font-size: 20px">Black T-Shirt</p>
-</a>
-
-</div>
-
-<div class="split right">
-  <div class="centered">
-    <h1 style="color: white;">Collection 2</h1>
-    <p style="color: white; font-size: 25px;">The Finale</p>
-  </div>
-
-<div class="hover">
+<div class="hover" style=" text-align: center; padding: 50px 0 0 0">
   <a href="shop.html">
     <img src="black.jpg" alt="black t-shirt" width="300px" height="300px">
-    <p style="font-size: 20px; color:white">Black T-Shirt</p>
+    <p style="font-size: 20px; color:white; font-family: sans-serif;">Black T-Shirt</p>
   </a>
 
 </div>
