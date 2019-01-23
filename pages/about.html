@@ -19,13 +19,42 @@
     font-family: sans-serif;
   }
 
+  .back {
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    width: 100%
+  }
+  
+  .button {
+  background-color:inherit;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 </style>
 
-  <body>
+<body>
 
-    <h1>Edgar Robles</h1>
+  <h1>Edgar Robles</h1>
 
+<!-- Button -->
+<div class="back">
+  <button onclick="goBack()" class="button">Home</button>
+<script>
+  function goBack() {
+    window.history.back();
+  }
+</script>
+</div>
+<!-- Button End -->
 
-  </body>
+</body>
 
 </html>
