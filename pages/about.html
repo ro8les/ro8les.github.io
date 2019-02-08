@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+  </head>
+
+<style>
+
+  body {
+    background-color: black;
+    text-align: center;
+  }
+
+  h1 {
+    color: white;
+    font-family: sans-serif;
+  }
+
+  .back {
+    position: fixed;
+    text-align: center;
+    bottom: 10px;
+    width: 100%
+  }
+
+  .button {
+  background-color:inherit;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+</style>
+
+<body>
+
+  <h1>Edgar Robles</h1>
+
+<!-- Button -->
+<div class="back">
+  <button onclick="goBack()" class="button">Go Back</button>
+<script>
+  function goBack() {
+    window.history.back();
+  }
+</script>
+</div>
+<!-- Button End -->
+
+</body>
+
+</html>
